@@ -22,9 +22,11 @@ Testing datapoints: 30
 Predicted class labels for the test data: [0, 1, 2, 1, ...]
 The accuracy is: 0.9667
 ```
+![Alt Text](./fig.png)
 
 ## How It Can Be Improved
 - Cross-Validation for Optimal k Selection: Implement cross-validation to automatically select the best k based on validation accuracy.
 - Handling More Data: Allow the user to load custom datasets from CSV files.
 - Plotting Decision Boundaries: Visualize decision boundaries to better understand the classifier's behavior.
 - Hyperparameter Tuning: Experiment with different distance metrics like Manhattan or Minkowski to improve performance.
+
